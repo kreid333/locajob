@@ -16,3 +16,6 @@ CREATE TABLE jobs (
     contact_email VARCHAR(255) NOT NULL,
     PRIMARY KEY (id)
 );
+
+INSERT INTO categories (name)
+VALUES ("Business"), ("Technology"), ("Retail"), ("Construction");
