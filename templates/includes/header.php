@@ -12,7 +12,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <span style="font-size: 30px; margin-right: 10px;">LocaJob</span>
+        <span style="font-size: 30px; margin-right: 10px;"><?php echo SITE_TITLE; ?></span>
         <div>
             <ul class="navbar-nav">
                 <li class="nav-item">
