@@ -29,7 +29,7 @@
                     <p><?php echo $job->description; ?></p>
                 </div>
                 <div class="col-md-2">
-                    <button class="btn btn-success" type="button">Example button</button>
+                    <a class="btn btn-success" href="job.php?id=<?php echo $job->id; ?>">View</a>
                 </div>
             </div>
 
