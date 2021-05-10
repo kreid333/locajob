@@ -10,41 +10,19 @@
             </div>
         </div>
 
+        <?php foreach($jobs as $job): ?>
+
         <div class="row">
             <div class="col-md-10">
-                <h2>Change the background</h2>
-                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                <h2><?php echo $job->job_title; ?></h2>
+                <p><?php echo $job->description; ?></p>
             </div>
             <div class="col-md-2">
                 <button class="btn btn-success" type="button">Example button</button>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-10">
-                <h2>Change the background</h2>
-                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-            </div>
-            <div class="col-md-2">
-                <button class="btn btn-success" type="button">Example button</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-10">
-                <h2>Change the background</h2>
-                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-            </div>
-            <div class="col-md-2">
-                <button class="btn btn-success" type="button">Example button</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-10">
-                <h2>Change the background</h2>
-                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-            </div>
-            <div class="col-md-2">
-                <button class="btn btn-success" type="button">Example button</button>
-            </div>
-        </div>
+
+        <?php endforeach ?>
+
 </main>
 <?php include_once "includes/footer.php" ?>
