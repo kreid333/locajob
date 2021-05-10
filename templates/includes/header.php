@@ -12,14 +12,14 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">LocaJob</a>
+        <span style="font-size: 30px; margin-right: 10px;">LocaJob</span>
         <div>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Create Listing</a>
+                    <a class="nav-link" href="create.php">Create Listing</a>
                 </li>
             </ul>
         </div>
